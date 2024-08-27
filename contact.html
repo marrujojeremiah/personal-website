@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Jeremiah Marrujo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Me</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="https://www.linkedin.com/in/jeremiahmarrujo/" target="_blank">LinkedIn</a></li>
+                <li><a href="about.html">About Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="contact-info">
+        <h2>Get in Touch</h2>
+        <p>Email: <a href="mailto:marrujojeremiah@gmail.com">marrujojeremiah@gmail.com</a></p>
+        <p>Location: DFW, Texas</p>
+    </section>
+
+    <section id="contact-form">
+        <h2>Contact Form</h2>
+        <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="6" required></textarea><br><br>
+            
+            <label for="category">Category:</label><br>
+            <select id="category" name="category" required>
+                <option value="general">General Inquiry</option>
+                <option value="recruiter">Recruiter/Employer</option>
+                <option value="personal">Personal</option>
+            </select><br><br>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Jeremiah Marrujo. All rights reserved.</p>
+    </footer>
+</body>
+</html>
